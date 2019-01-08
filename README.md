@@ -4,16 +4,12 @@ This is the driver script for x730
 How to use?
 
 * step 1:
-<pre><code>
-sudo bash x730.sh
-</code</pre>
+> sudo bash x730.sh
 
 * step 2:
-<pre><code>
-printf "%s\\n" "alias x730off='sudo x730shutdown.sh'" >> ~/.bashrc
-</code</pre>
+
+> printf "%s\\n" "alias x730off='sudo x730shutdown.sh'" >> ~/.bashrc
 
 * step 3:
-<pre><code>
-source ~/.bashrc
-</code</pre>
+> source ~/.bashrc
+
