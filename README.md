@@ -9,7 +9,9 @@ How to use?
 
 * step 1:
 > wget https://raw.githubusercontent.com/geekworm-com/x730-script/master/x730.sh
+
 > sudo chmod +x x730.sh
+
 > sudo bash x730.sh
 
 * step 2:
