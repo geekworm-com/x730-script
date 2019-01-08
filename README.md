@@ -17,5 +17,4 @@ How to use?
 > printf "%s\\n" "alias x730off='sudo x730shutdown.sh'" >> ~/.bashrc
 
 * step 3:
-> source ~/.bashrc
-
+> sudo reboot
