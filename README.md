@@ -1,6 +1,8 @@
 # x730-script
 This is the driver script for x730; 
+
 NOTE:
+
 We test this shell script base official Raspbian '2018-11-13-raspbian-stretch.img' version;
 
 How to use?
