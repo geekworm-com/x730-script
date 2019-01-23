@@ -1,5 +1,5 @@
 # x730-script
-This is the driver script for x730; 
+This is the safe shutdown script for x730;
 
 NOTE:
 
