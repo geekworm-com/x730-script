@@ -4,6 +4,7 @@ This is the safe shutdown script for x730;
 NOTE:
 
 We test this shell script base official Raspbian '2018-11-13-raspbian-stretch.img' version;
+We test this shell script base official Raspbian '2019-09-26 Raspbian Buster' version also;
 
 How to use?
 
@@ -20,3 +21,6 @@ How to use?
 
 * step 3:
 > sudo reboot
+
+* how to safe shut down, run the following comamdn:
+> x730off
