@@ -11,8 +11,8 @@ REBOOTPULSEMINIMUM=200
 REBOOTPULSEMAXIMUM=600
 
 #Set internal biases and pull the pins
-gpioset -B pull-down ggpiochip0 $SHUTDOWN_PIN=0
-gpioset -B pull-up ggpiochip0 $BOOT_PIN=1
+gpioset -B pull-down gpiochip0 $SHUTDOWN_PIN=0
+gpioset -B pull-up gpiochip0 $BOOT_PIN=1
 
 printf "X735 Shutting down..."
 

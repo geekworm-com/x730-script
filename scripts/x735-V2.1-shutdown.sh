@@ -6,12 +6,8 @@ GPIOCHIP=gpiochip0
 
 BUTTON_PIN=18
 
-echo "$BUTTON" > /sys/class/gpio/export;
-echo "out" > /sys/class/gpio/gpio$BUTTON/direction
-echo "1" > /sys/class/gpio/gpio$BUTTON/value
-
 #Set internal biases and pull the pins
-gpioset -B pull-up ggpiochip0 $BUTTON_PIN=1
+gpioset -B pull-up gpiochip0 $BUTTON_PIN=1
 
 SLEEP=${1:-4}
 
@@ -51,4 +47,4 @@ echo "X735 Shutting down..."
 /bin/sleep $SLEEP
 
 #restore GPIO 18
-gpioset -B pull-down ggpiochip0 $BUTTON_PIN=0
+gpioset -B pull-down gpiochip0 $BUTTON_PIN=0
