@@ -22,5 +22,5 @@ How to use?
 * step 3:
 > sudo reboot
 
-* how to safe shut down, run the following comamdn:
+* how to safe shut down, run the following command:
 > x730off
